@@ -1,10 +1,22 @@
 function atzime(n){
     let skaitlis = '';
 
-    for(let z =0; z <= n.length - 1;z++){
-        skaitlis= skaitlis +'(' + n[z]+ ')';
+    if(skaitlis >= 8) {
+        
+        return "🤩";
     }
-    return skaitlis;
+    else if(skaitlis <=3) {
+
+         return "😣";
+    }
+    else if(skaitlis <=10) {
+
+        return "😎";
+    }
+    else {
+        return "😑";
+    }
+    
 }
  let rez = atzime('10');
 
