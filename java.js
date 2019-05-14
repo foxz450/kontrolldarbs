@@ -9,14 +9,20 @@ function atzime(n){
 
          return "😣";
     }
-    else if(skaitlis <=10) {
+    else if(skaitlis = 10) {
 
         return "😎";
     }
+    else if(skaitlis = 1) {
+        return "😭";
+    }
+    else if(skaitlis = 7) {
+        return "😋";
+    }
     else {
         return "😑";
-    }
-    
+    }  
+
 }
  let rez = atzime('10');
 
